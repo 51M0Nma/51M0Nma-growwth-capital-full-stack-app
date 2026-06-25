@@ -1,0 +1,37 @@
+{
+  "accessRequests": [
+    {
+      "id": "d00c808f-c145-4c5e-b527-26d26eb96761",
+      "fullName": "Test User",
+      "email": "testuser@example.com",
+      "phone": "9999999999",
+      "organization": "",
+      "country": "",
+      "status": "approved",
+      "createdAt": "2026-05-08T09:22:42.737Z",
+      "reviewedAt": "2026-05-08T09:22:42.858Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "e9c77187-e382-4408-b436-6326fec1f9d5",
+      "fullName": "Test User",
+      "email": "testuser@example.com",
+      "phone": "9999999999",
+      "role": "user",
+      "passwordHash": "$2b$10$RzZrWC7ptOxqZ8aReovV9..AXI7RYlmDUEZ6lgGTwbt9iSUCvvx5i",
+      "mustChangePassword": true,
+      "createdAt": "2026-05-08T09:22:42.858Z"
+    }
+  ],
+  "adminAudit": [
+    {
+      "id": "481c5904-80ba-4002-b835-be32f08e7a94",
+      "action": "APPROVE_REQUEST",
+      "actor": "admin@growthcapital.local",
+      "targetRequestId": "d00c808f-c145-4c5e-b527-26d26eb96761",
+      "targetUserEmail": "testuser@example.com",
+      "createdAt": "2026-05-08T09:22:42.858Z"
+    }
+  ]
+}

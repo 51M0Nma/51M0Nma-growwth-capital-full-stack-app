@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #05070f;
+  --panel: #111827;
+  --sidebar: #0c101b;
+  --header-bg: #0a0e18;
+  --content-bg: #06080f;
+  --text: #f3f4f6;
+  --muted: #9ca3af;
+  --primary: #6366f1;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(120deg, #0f172a 0%, var(--bg) 60%);
+  color: var(--text);
+}
